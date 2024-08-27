@@ -1,0 +1,125 @@
+/* health-benefits.css */
+
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/* Health Benefits Styles */
+
+.health-benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.health-benefit {
+    margin: 20px;
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.health-benefit img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.health-benefit h2 {
+    margin-top: 0;
+}
+
+.health-benefit p {
+    font-size: 16px;
+    color: #666;
+}
+
+.health-benefit .icon {
+    font-size: 24px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.health-benefit .description {
+    font-size: 14px;
+    color: #999;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    .health-benefits {
+        flex-direction: column;
+    }
+    .health-benefit {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+/* Icon Styles */
+
+.icon-heart {
+    color: #FF69B4;
+}
+
+.icon-muscle {
+    color: #34C759;
+}
+
+.icon-brain {
+    color: #8BC34A;
+}
+
+.icon-energy {
+    color: #FFC107;
+}
